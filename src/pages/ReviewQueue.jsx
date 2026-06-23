@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000"
+const API = import.meta.env.VITE_API_URL || "https://backend-trafficvision-gridlock-round2.onrender.com/"
 
 export default function ReviewQueue({ onSelectRecord }) {
   const [records, setRecords] = useState([])
