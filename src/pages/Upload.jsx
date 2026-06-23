@@ -1,6 +1,6 @@
 import { useState, useRef } from "react"
 
-const API = import.meta.env.VITE_API_URL || "https://backend-trafficvision-gridlock-round2.onrender.com/"
+const API = import.meta.env.VITE_API_URL || "https://backend-trafficvision-gridlock-round2.onrender.com"
 
 const TIER_STYLE = {
   AUTO_CHALLAN: { bg: "#fef2f2", border: "#fca5a5", color: "#dc2626", label: "Auto-challan issued" },
